@@ -12,7 +12,7 @@ source $HOME/Osint/Colors.sh
 # FUNCIONES
 #
 function Osint {
-	time.sleep 5
+	time.sleep 3
 	clear
 echo -e "${verde}
 ${verde}╭━━━╮╭━━━╮╭━━╮${negro}╭━╮ ╭╮╭━━━━╮
