@@ -37,8 +37,6 @@ while :
 do
 Osint
 sleep 0.1
-echo -e -n ""
-sleep 0.1
 echo -e "${negro}             ┌═════════════════════════════┐"
 sleep 0.1
 echo -e "      ┌══════█ ${verde}ELIJA UNA OPCIÓN Y DE ENTER ${negro}█══════┐"
