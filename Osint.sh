@@ -37,8 +37,9 @@ while :
 do
 Osint
 sleep 0.1
-echo -e -n "${negro}
-             ┌═════════════════════════════┐"
+echo -e -n ""
+sleep 0.1
+echo -e "${negro}             ┌═════════════════════════════┐"
 sleep 0.1
 echo -e "      ┌══════█ ${verde}ELIJA UNA OPCIÓN Y DE ENTER ${negro}█══════┐"
 sleep 0.1
@@ -59,7 +60,7 @@ sleep 0.1
 echo -e "└════════════════┘                      └═══════════════┘"
 sleep 0.1
 echo -e "┌═══════════════════════════════┐       ┌═══════════════┐"
-slepp 0.1
+sleep 0.1
 echo -e "█ [${verde}3${negro}] ${blanco}NUMERO DE TELEFONO GLOBAL ${negro}█       █ [${verde}13${negro}] ${blanco}RSLOOKUP ${negro}█"
 sleep 0.1
 echo -e "└═══════════════════════════════┘       └═══════════════┘"
@@ -89,7 +90,7 @@ sleep 0.1
 echo -e "└════════════════════┘                  └════════════════════┘"
 sleep 0.1
 echo -e "┌═══════════┐                           ┌═════════════════════┐"
-sleep 0,1
+sleep 0.1
 echo -e "█ [${verde}8${negro}] ${blanco}spyse ${negro}█                           █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█"
 sleep 0.1
 echo -e "└═══════════┘                           └═════════════════════┘"
