@@ -9,13 +9,11 @@ Es una herramienta creada en bash la cual es una Fuente Abierta, hace referencia
 ### INSTALACIÓN:
 
 ```
-* apt update && apt upgrade -y
+* pkg update && pkg upgrade -y
 
 * termux-setup-storage
 
 * pkg install -y git
-
-* pkg install pv -y
 
 * git clone https://github.com/Scorpio28-Official/Osint
 
