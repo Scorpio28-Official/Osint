@@ -15,20 +15,14 @@ function Osint {
 	time.sleep 3
 	clear
 sleep 0.5
-echo -e ""
-echo -e "${verde}╭━━━╮╭━━━╮╭━━╮${negro}╭━╮ ╭╮╭━━━━╮"
-sleep 0.1
-echo -e "${verde}┃╭━╮┃┃╭━╮┃╰┫┣╯${negro}┃┃╰╮┃┃┃╭╮╭╮┃"
-sleep 0.1
-echo -e "${verde}┃┃ ┃┃┃╰━━╮ ┃┃ ${negro}┃╭╮╰╯┃╰╯┃┃╰╯"
-sleep 0.1
-echo -e "${verde}┃┃ ┃┃╰━━╮┃ ┃┃ ${negro}┃┃╰╮┃┃  ┃┃"
-sleep 0.1
-echo -e "${verde}┃╰━╯┃┃╰━╯┃╭┫┣╮${negro}┃┃ ┃┃┃  ┃┃"
-sleep 0.1
-echo -e "${verde}╰━━━╯╰━━━╯╰━━╯${negro}╰╯ ╰━╯  ╰╯  WEB"
-sleep 0.1
-echo -e "${negro}=========${verde}(${blanco}Scorpio28${verde})${negro}=========${verde}"
+echo -e "${verde}
+${verde}╭━━━╮╭━━━╮╭━━╮${negro}╭━╮ ╭╮╭━━━━╮
+${verde}┃╭━╮┃┃╭━╮┃╰┫┣╯${negro}┃┃╰╮┃┃┃╭╮╭╮┃
+${verde}┃┃ ┃┃┃╰━━╮ ┃┃ ${negro}┃╭╮╰╯┃╰╯┃┃╰╯
+${verde}┃┃ ┃┃╰━━╮┃ ┃┃ ${negro}┃┃╰╮┃┃  ┃┃  
+${verde}┃╰━╯┃┃╰━╯┃╭┫┣╮${negro}┃┃ ┃┃┃  ┃┃  
+${verde}╰━━━╯╰━━━╯╰━━╯${negro}╰╯ ╰━╯  ╰╯  WEB
+${negro}=========${verde}(${blanco}Scorpio28${verde})${negro}=========${verde}" | pv -qL 3998
 }
 #
 # CÓDIGO
@@ -36,80 +30,44 @@ echo -e "${negro}=========${verde}(${blanco}Scorpio28${verde})${negro}=========$
 while :
 do
 Osint
-sleep 0.1
-echo -e "${negro}             ┌═════════════════════════════┐"
-sleep 0.1
-echo -e "      ┌══════█ ${verde}ELIJA UNA OPCIÓN Y DE ENTER ${negro}█══════┐"
-sleep 0.1
-echo -e "      █      └═════════════════════════════┘      █"
-sleep 0.1
-echo -e "      █                                           █"
-sleep 0.1
-echo -e "┌═══════════════════┐                   ┌═════════════════┐"
-sleep 0.1
-echo -e "█ [${verde}1${negro}] ${blanco}CIBERPATRULLA ${negro}█                   █ [${verde}11${negro}] ${blanco}WELEAKINFO ${negro}█"
-sleep 0.1
-echo -e "└═══════════════════┘                   └═════════════════┘"
-sleep 0.1
-echo -e "┌════════════════┐                      ┌═══════════════┐"
-sleep 0.1
-echo -e "█ [${verde}2${negro}] ${blanco}DUCKDUCKGO ${negro}█                      █ [${verde}12${negro}] ${blanco}LEAKPEEK ${negro}█"
-sleep 0.1
-echo -e "└════════════════┘                      └═══════════════┘"
-sleep 0.1
-echo -e "┌═══════════════════════════════┐       ┌═══════════════┐"
-sleep 0.1
-echo -e "█ [${verde}3${negro}] ${blanco}NUMERO DE TELEFONO GLOBAL ${negro}█       █ [${verde}13${negro}] ${blanco}RSLOOKUP ${negro}█"
-sleep 0.1
-echo -e "└═══════════════════════════════┘       └═══════════════┘"
-sleep 0.1
-echo -e "┌═════════════════════════┐             ┌═══════════════┐"
-sleep 0.1
-echo -e "█ [${verde}4${negro}] ${blanco}NOMBRES DE USUARIOS ${negro}█             █ [${verde}14${negro}] ${blanco}SNUSBASE ${negro}█"
-sleep 0.1
-echo -e "└═════════════════════════┘             └═══════════════┘"
-sleep 0.1
-echo -e "┌═══════════════════════════════┐       ┌═════════════════════┐"
-sleep 0.1
-echo -e "█ [${verde}5${negro}] ${blanco}EVALUACIÓN Y CERTIFICADOS ${negro}█       █ [${verde}15${negro}] ${blanco}LEAKEDSOURERCE ${negro}█"
-sleep 0.1
-echo -e "└═══════════════════════════════┘       └═════════════════════┘"
-sleep 0.1
-echo -e "┌═════════════┐                         ┌══════════════════┐"
-sleep 0.1
-echo -e "█ [${verde}6${negro}] ${blanco}LEAK SX ${negro}█                         █ [${verde}16${negro}] ${blanco}LEAK-LOOKUP ${negro}█"
-sleep 0.1
-echo -e "└═════════════┘                         └══════════════════┘"
-sleep 0.1
-echo -e "┌════════════════════┐                  ┌════════════════════┐"
-sleep 0.1
-echo -e "█ [${verde}7${negro}] ${blanco}INTELIGENCIA X ${negro}█                  █ [${verde}17${negro}] ${blanco}BREACHCHECHER ${negro}█"
-sleep 0.1
-echo -e "└════════════════════┘                  └════════════════════┘"
-sleep 0.1
-echo -e "┌═══════════┐                           ┌═════════════════════┐"
-sleep 0.1
-echo -e "█ [${verde}8${negro}] ${blanco}spyse ${negro}█                           █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█"
-sleep 0.1
-echo -e "└═══════════┘                           └═════════════════════┘"
-sleep 0.1
-echo -e "┌══════════════════┐                    ┌════════════════════┐"
-sleep 0.1
-echo -e "█ [${verde}9${negro}] ${blanco}VIGILANTE PW ${negro}█                    █ [${verde}19${negro}] ${blanco}BLACKKYTETECH ${negro}█"
-sleep 0.1
-echo -e "└══════════════════┘                    └════════════════════┘"
-sleep 0.1
-echo -e "┌════════════════┐                      ┌══════════════┐"
-sleep 0.1
-echo -e "█ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                      █ [${verde}20${negro}] ${blanco}OSINTFW ${negro}█"
-sleep 0.1
-echo -e "└════════════════┘                      └══════════════┘"
-sleep 0.1
-echo -e "┃"
-sleep 0.1
-echo -e "┃"
-sleep 0.1
-echo -e "└═>>> ${verde}"
+echo -e -n "${negro}
+             ┌═════════════════════════════┐
+      ┌══════█ ${verde}ELIJA UNA OPCIÓN Y DE ENTER ${negro}█══════┐
+      █      └═════════════════════════════┘      █
+      █                                           █
+┌═══════════════════┐                   ┌═════════════════┐
+█ [${verde}1${negro}] ${blanco}CIBERPATRULLA ${negro}█                   █ [${verde}11${negro}] ${blanco}WELEAKINFO ${negro}█
+└═══════════════════┘                   └═════════════════┘
+┌════════════════┐                      ┌═══════════════┐
+█ [${verde}2${negro}] ${blanco}DUCKDUCKGO ${negro}█                      █ [${verde}12${negro}] ${blanco}LEAKPEEK ${negro}█
+└════════════════┘                      └═══════════════┘
+┌═══════════════════════════════┐       ┌═══════════════┐
+█ [${verde}3${negro}] ${blanco}NUMERO DE TELEFONO GLOBAL ${negro}█       █ [${verde}13${negro}] ${blanco}RSLOOKUP ${negro}█
+└═══════════════════════════════┘       └═══════════════┘
+┌═════════════════════════┐             ┌═══════════════┐
+█ [${verde}4${negro}] ${blanco}NOMBRES DE USUARIOS ${negro}█             █ [${verde}14${negro}] ${blanco}SNUSBASE ${negro}█
+└═════════════════════════┘             └═══════════════┘
+┌═══════════════════════════════┐       ┌═════════════════════┐
+█ [${verde}5${negro}] ${blanco}EVALUACIÓN Y CERTIFICADOS ${negro}█       █ [${verde}15${negro}] ${blanco}LEAKEDSOURERCE ${negro}█
+└═══════════════════════════════┘       └═════════════════════┘
+┌═════════════┐                         ┌══════════════════┐
+█ [${verde}6${negro}] ${blanco}LEAK SX ${negro}█                         █ [${verde}16${negro}] ${blanco}LEAK-LOOKUP ${negro}█
+└═════════════┘                         └══════════════════┘
+┌════════════════════┐                  ┌════════════════════┐
+█ [${verde}7${negro}] ${blanco}INTELIGENCIA X ${negro}█                  █ [${verde}17${negro}] ${blanco}BREACHCHECHER ${negro}█
+└════════════════════┘                  └════════════════════┘
+┌═══════════┐                           ┌═════════════════════┐
+█ [${verde}8${negro}] ${blanco}spyse ${negro}█                           █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
+└═══════════┘                           └═════════════════════┘
+┌══════════════════┐                    ┌════════════════════┐
+█ [${verde}9${negro}] ${blanco}VIGILANTE PW ${negro}█                    █ [${verde}19${negro}] ${blanco}BLACKKYTETECH ${negro}█
+└══════════════════┘                    └════════════════════┘
+┌════════════════┐                      ┌══════════════┐
+█ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                      █ [${verde}20${negro}] ${blanco}OSINTFW ${negro}█
+└════════════════┘                      └══════════════┘
+┃
+┃
+└═>>> ${verde}" | pv -qL 3998
 read -r Opcion_Osint
 
 [ "$Opcion_Osint" == "1" ]||[ "$Opcion_Osint" == "2" ]||[ "$Opcion_Osint" == "3" ]||[ "$Opcion_Osint" == "4" ]||[ "$Opcion_Osint" == "5" ]||[ "$Opcion_Osint" == "6" ]||[ "$Opcion_Osint" == "7" ]||[ "$Opcion_Osint" == "8" ]||[ "$Opcion_Osint" == "9" ]||[ "$Opcion_Osint" == "10" ]||[ "$Opcion_Osint" == "11" ]||[ "$Opcion_Osint" == "12" ]||[ "$Opcion_Osint" == "13" ]||[ "$Opcion_Osint" == "14" ]||[ "$Opcion_Osint" == "15" ]||[ "$Opcion_Osint" == "16" ]||[ "$Opcion_Osint" == "17" ]||[ "$Opcion_Osint" == "18" ]||[ "$Opcion_Osint" == "19" ]||[ "$Opcion_Osint" == "20" ] && break
